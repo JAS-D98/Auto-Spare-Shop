@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy Auto</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <!-- start of welcome page -->
+    <div class="header" id="home">
+        <nav>
+        <div class="time"><p>Mon-Fri 08:00 - 18:00 | Sat 08:00 - 19:00</p></div>
+        <div class="contacts">
+            <img src="./Images/Proxy-Auto-Services-Logo-1.png" class="logo">
+            <div class="det">
+                <div class="det-con">
+                    <img src="./Images/icons8-user-80.png">
+                    <div>
+                    <h3>Call Us</h3>
+                    <p>0704 222 666</p>
+                    </div>
+                </div>
+                <div class="det-con">
+                    <img src="./Images/icons8-mail-80.png" class="mes">
+                    <div>
+                    <h3>Send Us Mail</h3>
+                    <p>info@proxyauto.co.ke</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">Contact Us</button>
+        </div>
+        <div class="nav">
+                <ul id="sideMenu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="">News &amp; Update</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <img src="./Images/icons8-multiply-50.png" onclick="closeMenu()" class="fas close">
+                </ul>
+                <img src="./Images/icons8-menu-50 (1).png" onclick="openMenu()" class="fas open">
+        </div>
+    </nav>
+        <div class="content">
+            <h1>We Care About Your Car</h1>
+            <p>Come give your car a good fix. A healthy car, a safer ride. </p>
+        </div>
+    </div>
+   <!--  End of welcome page -->
+   <!--  start of products Page -->
+   <div class="products" id="products">
+    <div class="heading">
+        <h2><span>Our</span> Products</h2>
+    </div>
+    <div class="btn-row">
+        <button class="btn active" >All</button>
+        <button class="btn">Car Spares</button>
+        <button class="btn">Motorbike Spares</button>
+        <button class="btn">Bicycle Spares</button>
+        <button class="btn">Lubricants</button>
+    </div>
+    <div class="product-row">
+        <div class="row" style="--i:1;">
+            <img src="./Images/Bmw rim.jpeg">
+            <p>Vehicle Rims</p>
+        </div>
+        <div class="row" style="--i:2;">
+            <img src="./Images/Suspension.jpeg">
+            <p>Bike Suspensions</p>
+        </div>
+        <div class="row" style="--i:3;">
+            <img src="./Images/Engine.jpeg">
+            <p>Vehicle Engine</p>
+        </div>
+        <div class="row" style="--i:4;">
+            <img src="./Images/Horn.webp">
+            <p>Car Horns</p>
+        </div>
+        <div class="row" style="--i:5;">
+            <img src="./Images/Bike Wheel.jpeg">
+            <p>Bicycle Wheels</p>
+        </div>
+        <div class="row" style="--i:6;">
+            <img src="./Images/Headlight 2.jpeg">
+            <p>Car Headlights</p>
+        </div>
+    </div>
+    <button class="btn">View More</button>
+   </div>
+   <!-- End of products page -->
+   
+   <!-- start of about section -->
+   <div class="about" id="about">
+    <div class="heading">
+        <h2><span>About</span> Us</h2>
+    </div>
+    <div class="content">
+    <div class="content-1">
+       <p>Welcome to Proxy Auto, your one-stop destination for all your automotive spare parts needs. With a passion for cars and a commitment to quality, we proudly offer a wide range of top-notch spare parts that keep your vehicles running smoothly on the road.
+
+        At Proxy Auto, we understand the importance of reliability and performance when it comes to your vehicles. Our carefully curated selection includes a diverse array of spare parts, from essential engine components to intricate electrical parts, all sourced from reputable manufacturers. Whether you're a seasoned mechanic or a car enthusiast working on your own project, we provide the parts you need to get the job done right.
+        
+        Our knowledgeable team is always here to assist you in finding the perfect spare parts that match your vehicle's specifications. We take pride in offering not only quality products but also exceptional customer service, ensuring that your shopping experience with us is both seamless and satisfying.
+        
+        Discover convenience and quality at Proxy Auto. Explore our comprehensive range of automotive spare parts and experience the difference that top-grade components can make for your vehicles. Your journey on the road starts with us.</p>
+    </div>
+    <div class="content-2">
+       <figure>
+        <img src="./Images/black mechanic.jpg">
+        <figcaption></figcaption>
+       </figure>
+    </div>
+    </div>
+   </div>
+   <!-- End of about section -->
+
+   <!-- start of service section -->
+   <div class="service" id="services">
+    <div class="heading">
+        <h2>Our<span> Services</span></h2>
+    </div>
+    <div class="service-box">
+        <div class="btn act">Body and Collision Repairs</div>
+        <div class="btn act">Electrical System Services</div>
+        <div class="btn act">Pre-Purchase Inspections</div>
+        <div class="btn act">Customization and Performance Upgrades</div>
+        <div class="btn act">Engine and Transmission Services</div>
+        <div class="btn act">Diagnostic Services</div>
+        <div class="btn act">Routine Maintenance Services</div>
+        <div class="btn act">Brake Services</div>
+        <div class="btn act">Exhaust System Services</div>
+        <div class="btn act">Emission System Services</div>
+        <div class="btn act">Air Conditioning and Heating Services</div>
+    </div>
+    <div class="container">
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./Images/New Car.png" alt="Car Servicing"></div>
+      <div class="swiper-slide"><img src="./Images/Car Service.jpg" alt="Wheel Balancing"></div>
+      <div class="swiper-slide"><img src="./Images/Proxy Man engine.JPG" alt="Engine Check"></div>
+      <div class="swiper-slide"><img src="./Images/Proxyauto Garage  Best Garage in Kenya Kiambu Road German vehicles garage in kenya  (26).jpg" alt="Panel Beating"></div>
+      <div class="swiper-slide"><img src="./Images/Undertaker.JPG" alt="Underground Repair"></div>
+      <div class="swiper-slide"><img src="./Images/Eng 2.JPG" alt="Engine Repair"></div>
+      <div class="swiper-slide"><img src="./Images/Front Car.jpg" alt="Opened Bonnet"></div>
+      <div class="swiper-slide"><img src="./Images/Front 2.jpg" alt="Opened Engine"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+    </div>
+   </div>
+   <!--  End of service section -->
+
+<!-- start of contacts page -->
+<div class="contact-us" id="contacts">
+    <div class="heading">
+        <h2><span>Contact</span> Us</h2>
+    </div>
+    <div class="contact-box">
+        <div class="box-1">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.919853868676!2d36.831271774131935!3d-1.2159624355515508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3d5df0378847%3A0xdb7d5c490bf805a0!2sProxy%20Auto%20Garage!5e0!3m2!1sen!2ske!4v1691576104864!5m2!1sen!2ske" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+        <div class="box-2">
+            <p>Send us a message, comment or a suggestion,<br> we are always happy to here from you.</p>
+            <div class="box-2-det">
+                <img src="./Images/icons8-phone-50.png" alt="Phone">
+                <h2>Phone:</h2>
+                <p>0704-222-666</p>
+            </div>
+            <div class="box-2-det">
+                <img src="./Images/icons8-letter-with-email-sign-50.png" alt="">
+                <h2>Email:</h2>
+                <p>info@proxyauto.co.ke</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of contacts page -->
+
+<!-- start of footer -->
+<footer>
+    <div class="foot-det">
+    <div class="social-links">
+        <a href=""><img src="./Images/icons8-facebook-50 (1).png" alt="facebook-icon"></a>
+        <a href=""><img src="./Images/icons8-instagram-50.png" alt="instagram-icon"></a>
+        <a href=""><img src="./Images/icons8-youtube-squared-50.png" alt="youtube-icon"></a>
+        <a href=""><img src="./Images/icons8-tiktok-50.png" alt="Tiktok-icon"></a>
+        <a href=""><img src="./Images/icons8-whatsapp-50.png" alt="Whatsapp-icon"></a>
+    </div>
+    </div>
+    <p>Copyright © 2023 Proxy Auto Repair Ltd | Staff Mail | All Rights Reserved.</p>
+    <p>Design by Jasper</p>
+</footer>
+<!-- End of footer -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script src="./script.js"></script>
+
+</body>
+</html>
